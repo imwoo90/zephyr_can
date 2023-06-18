@@ -32,6 +32,9 @@ west build -p always -b olimex_stm32_h405
 ### Binary path
 {project_root}/build/zephyr/zephyr.hex
 
+### API reference
+https://docs.zephyrproject.org/latest/index.html
+
 ---
 
 ## Program and Debugging

@@ -1,6 +1,6 @@
 # Pre-Requires
-* docker (you must add group for no sudo)
-* docker-compose
+* *docker (you must add group for no sudo) and *docker-compose
+  * https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script
 * vscode (extension id)
   * ms-vscode-remote.vscode-remote-extensionpack
   * ms-azuretools.vscode-docker

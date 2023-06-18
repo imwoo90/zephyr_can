@@ -1,0 +1,10 @@
+version: "3" # 버전 지정
+
+services: # 컨테이너 설정
+  zephyr:
+    image: imwoo/zephyr:v3.3.0-rc3
+    stdin_open: true
+    tty: true
+    privileged: true
+    volumes:
+      - /dev:/dev

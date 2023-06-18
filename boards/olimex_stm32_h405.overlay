@@ -1,0 +1,20 @@
+
+/ {
+	chosen {
+		zephyr,canbus = &can1;
+	};
+};
+
+&can1 {
+	pinctrl-0 = <&can1_rx_pb8 &can1_tx_pb9>;
+	pinctrl-names = "default";
+	bus-speed = <125000>;
+	status = "okay";
+	can-transceiver {
+		max-bitrate = <1000000>;
+	};
+};
+
+&usart2 {
+	status = "disabled";
+};

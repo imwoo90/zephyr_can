@@ -26,7 +26,7 @@ to uid,gid of host
 
 # Getting Started
 
-## Build Command
+### Build Command
 west build -p always -b olimex_stm32_h405
 
 ### Binary path

@@ -35,6 +35,8 @@ west build -p always -b olimex_stm32_h405
 ### API reference
 https://docs.zephyrproject.org/latest/index.html
 
+* spi_example: https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/drivers/spi_bitbang/src/main.c
+
 ---
 
 ## Program and Debugging

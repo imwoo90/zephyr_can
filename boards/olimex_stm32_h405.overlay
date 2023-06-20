@@ -24,4 +24,5 @@
 		     &spi1_miso_pa6 &spi1_mosi_pa7>;
 	pinctrl-names = "default";
 	status = "okay";
+	cs-gpios = <&gpioa 4 GPIO_ACTIVE_LOW>;
 };
